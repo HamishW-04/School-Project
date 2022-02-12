@@ -1,0 +1,318 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.25f1 (9b9180224418) revision 10195328'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19042) 64bit Professional' Language: 'en' Physical Memory: 16301 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+D:\Software\Unity Installs\2020.3.25f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Hamish Wormald/Documents/GitHub/School-Project/School Project
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+58770
+Successfully changed project path to: C:/Users/Hamish Wormald/Documents/GitHub/School-Project/School Project
+C:/Users/Hamish Wormald/Documents/GitHub/School-Project/School Project
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 41.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.25f1 (9b9180224418)
+[Subsystems] Discovering subsystems at path D:/Software/Unity Installs/2020.3.25f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Hamish Wormald/Documents/GitHub/School-Project/School Project/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 SUPER (ID=0x1f06)
+    Vendor:   
+    VRAM:     8031 MB
+    Driver:   30.0.14.9649
+Initialize mono
+Mono path[0] = 'D:/Software/Unity Installs/2020.3.25f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Software/Unity Installs/2020.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Software/Unity Installs/2020.3.25f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56184
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Software/Unity Installs/2020.3.25f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/Software/Unity Installs/2020.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001130 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 42.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.483 seconds
+Domain Reload Profiling:
+	ReloadAssembly (483ms)
+		BeginReloadAssembly (52ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (378ms)
+			LoadAssemblies (52ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (121ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (154ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (42ms)
+				BeforeProcessingInitializeOnLoad (13ms)
+				ProcessInitializeOnLoadAttributes (71ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003278 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 41.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.919 seconds
+Domain Reload Profiling:
+	ReloadAssembly (919ms)
+		BeginReloadAssembly (122ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (14ms)
+		EndReloadAssembly (751ms)
+			LoadAssemblies (81ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (242ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (298ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (42ms)
+				BeforeProcessingInitializeOnLoad (79ms)
+				ProcessInitializeOnLoadAttributes (165ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2827 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.3 MB.
+System memory in use after: 129.5 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3266.
+Total: 2.420600 ms (FindLiveObjects: 0.181300 ms CreateObjectMapping: 0.121600 ms MarkObjects: 2.047200 ms  DeleteObjects: 0.069700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Materials/Textures/Cubemap_8k.png
+  artifactKey: Guid(c1067c601b67b4c43ad21cb537cbd705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Textures/Cubemap_8k.png using Guid(c1067c601b67b4c43ad21cb537cbd705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '215f6e5ce80fcb5d2f66de0beeb89849') in 0.156321 seconds 
+  Import took 0.161829 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 35.591570 seconds.
+  path: Assets/Materials/Textures/Cubemap_4k.png
+  artifactKey: Guid(02a4a5165fb40d0408c9c6899a5363dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Textures/Cubemap_4k.png using Guid(02a4a5165fb40d0408c9c6899a5363dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ab674fa181a2116e0473f1f7881bf95') in 0.022345 seconds 
+  Import took 0.025993 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.024618 seconds.
+  path: Assets/Materials/Textures/Planets/Planet_Texture.png
+  artifactKey: Guid(5b77861fbff466446bb5f01e8bc7880a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Textures/Planets/Planet_Texture.png using Guid(5b77861fbff466446bb5f01e8bc7880a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62285dc5767490dc34c5dbca3fe8e92a') in 0.032185 seconds 
+  Import took 0.037118 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002971 seconds.
+  path: Assets/Materials/Textures/Planets/Planet_Five_Normal_4k.png
+  artifactKey: Guid(f11adc0362ba0d8468f267ab4e934391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Textures/Planets/Planet_Five_Normal_4k.png using Guid(f11adc0362ba0d8468f267ab4e934391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acdd1dc01ec9197acc4b18a6989f1c85') in 0.031133 seconds 
+  Import took 0.036026 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/Materials/Textures/Planets/Planet_Two_Normal_4k.png
+  artifactKey: Guid(9ba2d62c983fa8944919e21e4196a06b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Textures/Planets/Planet_Two_Normal_4k.png using Guid(9ba2d62c983fa8944919e21e4196a06b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85d204eb2f6a544879ab1604fbfc1f7a') in 0.028998 seconds 
+  Import took 0.033903 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Materials/Textures/Planets/Planet_Three_Texture_4k.png
+  artifactKey: Guid(3f1c7a22bc1ba5c4a92d6e44a4342935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Textures/Planets/Planet_Three_Texture_4k.png using Guid(3f1c7a22bc1ba5c4a92d6e44a4342935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '381c4b7857ccc0e5bb20cc544af228d4') in 0.021476 seconds 
+  Import took 0.026311 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Materials/Textures/Planets/Planet_Six_Texture_4k.png
+  artifactKey: Guid(30369610e26acd84e91a3c34266bd47e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Textures/Planets/Planet_Six_Texture_4k.png using Guid(30369610e26acd84e91a3c34266bd47e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c3e04888bbdaac2ad5abe90dcdaf34d') in 0.022185 seconds 
+  Import took 0.027146 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Materials/Textures/Planets/Planet_Six_Roughness_4k.png
+  artifactKey: Guid(c7138a6b46b0a814bb063ab1a9d30d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Textures/Planets/Planet_Six_Roughness_4k.png using Guid(c7138a6b46b0a814bb063ab1a9d30d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1397a94583ce8b872c53b486c973b75a') in 0.020757 seconds 
+  Import took 0.025795 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Materials/Textures/Planets/Planet_Four_Roughness_4k.png
+  artifactKey: Guid(8648a0d4a046c154e9cceac87d0abef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Textures/Planets/Planet_Four_Roughness_4k.png using Guid(8648a0d4a046c154e9cceac87d0abef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a400257d18946f7928bac7c900a65a7') in 0.022138 seconds 
+  Import took 0.026822 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/Materials/Textures/Planets/Planet_Three_Normal_4k.png
+  artifactKey: Guid(360d04b9a755d9e4480f83ceb0c7f011) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Textures/Planets/Planet_Three_Normal_4k.png using Guid(360d04b9a755d9e4480f83ceb0c7f011) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efba590e6e5ba2c71976860f61493dec') in 0.021229 seconds 
+  Import took 0.025628 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/Materials/Textures/Planets/Planet_One_Roughness_4k.png
+  artifactKey: Guid(6c2e7cb9e492c8442a2e72d819a56249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Textures/Planets/Planet_One_Roughness_4k.png using Guid(6c2e7cb9e492c8442a2e72d819a56249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c830350f36e790a7408ef4b684f7483') in 0.020958 seconds 
+  Import took 0.025349 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/Materials/Textures/Planets/Planet_Three_Roughness_4k.png
+  artifactKey: Guid(fd77b9869ccd28c49822b18b20bb278e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Textures/Planets/Planet_Three_Roughness_4k.png using Guid(fd77b9869ccd28c49822b18b20bb278e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52d572de217483c9391ef5989e4f9398') in 0.020428 seconds 
+  Import took 0.024924 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/Materials/Textures/Planets/Sun_Emit_4k.png
+  artifactKey: Guid(b39f210a02c40df4b9e35f80cfcb10d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Textures/Planets/Sun_Emit_4k.png using Guid(b39f210a02c40df4b9e35f80cfcb10d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e745f666da09848f7a889c0f056a6f6') in 0.020445 seconds 
+  Import took 0.025080 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Materials/Textures/Planets/Planet_One_Normal_4k.png
+  artifactKey: Guid(0dd75f692ae52a145ba8a802da121fb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Textures/Planets/Planet_One_Normal_4k.png using Guid(0dd75f692ae52a145ba8a802da121fb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1fc52649ed8580e316a61378980e0df') in 0.021674 seconds 
+  Import took 0.026487 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Materials/Textures/Planets/Sun_Texture_4k.png
+  artifactKey: Guid(b3541e190fa0227478ec53d8ffe0d690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Textures/Planets/Sun_Texture_4k.png using Guid(b3541e190fa0227478ec53d8ffe0d690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fec2d8d915d97e0d24d40d865934de4') in 0.020329 seconds 
+  Import took 0.025135 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Materials/Textures/Planets/Planet_Two_Roughness_4k.png
+  artifactKey: Guid(8784b5fe37707c54aa070e1abf2bd9b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Textures/Planets/Planet_Two_Roughness_4k.png using Guid(8784b5fe37707c54aa070e1abf2bd9b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '481a4ff9eb9bc3a09e7f135edbdf5955') in 0.020342 seconds 
+  Import took 0.024937 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/Materials/Textures/Planets/Planet_Five_Roughness_4k.png
+  artifactKey: Guid(d500a5ca8e3f2e840917e304839aae0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Textures/Planets/Planet_Five_Roughness_4k.png using Guid(d500a5ca8e3f2e840917e304839aae0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eff063e9f661bed7ef4d783cb92626a3') in 0.020299 seconds 
+  Import took 0.025073 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Materials/Textures/Planets/Planet_Five_Texture_4k.png
+  artifactKey: Guid(135ed577c540d4d46ae42d489ee1c62a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Textures/Planets/Planet_Five_Texture_4k.png using Guid(135ed577c540d4d46ae42d489ee1c62a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d7749b8b044bff51b7010e49bbbdd6d') in 0.020651 seconds 
+  Import took 0.025376 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Materials/Textures/Planets/Planet_Four_Texture_4k.png
+  artifactKey: Guid(e9b87a89894034042a5a200e46e1ce06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Textures/Planets/Planet_Four_Texture_4k.png using Guid(e9b87a89894034042a5a200e46e1ce06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b7b5cb785c1a17179eeb74ae333c633') in 0.021988 seconds 
+  Import took 0.026589 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/Materials/Textures/Planets/Planet_Four_Normal_4k.png
+  artifactKey: Guid(bc996305d9e869a4e8d67abfdc8c7b8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Textures/Planets/Planet_Four_Normal_4k.png using Guid(bc996305d9e869a4e8d67abfdc8c7b8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bcff452e2c8971dbf2c7aefd32052c6') in 0.021033 seconds 
+  Import took 0.025560 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/Materials/Textures/Planets/Planet_Two_Emit_4k.png
+  artifactKey: Guid(59baa9ec1fa8e36439a499f689a0731f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Textures/Planets/Planet_Two_Emit_4k.png using Guid(59baa9ec1fa8e36439a499f689a0731f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '732fe00747377a402f010baf26628b51') in 0.020053 seconds 
+  Import took 0.024670 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Materials/Textures/Planets/Planet_One_Texture_4k.png
+  artifactKey: Guid(961bfac68236f774ab744f2981204f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Textures/Planets/Planet_One_Texture_4k.png using Guid(961bfac68236f774ab744f2981204f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '558cbe06fd3013f42c32bca7172a3181') in 0.021368 seconds 
+  Import took 0.026172 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/Materials/Textures/Planets/Planet_Six_Normal_4k.png
+  artifactKey: Guid(3784e394bd5519141a9d8da786992454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Textures/Planets/Planet_Six_Normal_4k.png using Guid(3784e394bd5519141a9d8da786992454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48417f7dd56358eedb53df06ae56df63') in 0.021031 seconds 
+  Import took 0.025962 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

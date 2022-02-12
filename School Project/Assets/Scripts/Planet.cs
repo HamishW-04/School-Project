@@ -2,20 +2,27 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Planet : MonoBehaviour
+public class Planet : GravBody
 {
     //Attribues
+    [Header("Object Info")]
     public string planetName;
-    public float mass;
-    public float orbitSpeed;
-    public Vector2 position2 { get { return new Vector2(transform.position.x, transform.position.z); } }
-    public Vector3 position { get { return transform.position; } }
-    public Rigidbody rb;
+    
 
-    private void Start()
+    [Header("Orbit")]
+    public float orbitSpeed;
+    public float orbitForce;
+    private float orbitRadius;
+    public Transform orbitOrientation;
+    public Vector3 orbitTarget;
+
+    
+
+    new private void Start()
     {
-        //Initialize
-        rb = GetComponent<Rigidbody>();
+        base.Start();
+
+        orbitRadius = Vector3.Distance(position, orbitTarget);
     }
 
     private void FixedUpdate()
@@ -28,7 +35,16 @@ public class Planet : MonoBehaviour
     {
         if (rb == null) return;
 
-        Vector3 dir = Vector3.Cross(Vector3.up, Vector3.zero - position).normalized;
-        rb.velocity = dir * orbitSpeed;
+        //Add force to keep momentum
+        orbitOrientation.LookAt(orbitTarget);
+        rb.velocity = orbitOrientation.right * orbitSpeed;
+
+        //Gravity like force
+        Vector3 dir = orbitTarget - position;
+        float dist = Vector3.Distance(position, orbitTarget);
+        dist -= orbitRadius;
+        float mag = dist * orbitForce;
+        
+        rb.AddForce(dir * mag);
     }
 }

@@ -4,35 +4,35 @@ using UnityEngine;
 
 public class UniverseController : MonoBehaviour
 {
-    public Planet[] planets;
+    public GravBody[] bodies;
 
     public void Start()
     {
         //Get all planets
-        GameObject[] planetsTemp = GameObject.FindGameObjectsWithTag("Planet");
-        planets = new Planet[planetsTemp.Length];
-        for (int i = 0; i < planetsTemp.Length; i++)
+        GameObject[] objectsTemp = GameObject.FindGameObjectsWithTag("Gravity Body");
+        bodies = new GravBody[objectsTemp.Length];
+        for (int i = 0; i < objectsTemp.Length; i++)
         {
-            planets[i] = planetsTemp[i].GetComponent<Planet>();
+            bodies[i] = objectsTemp[i].GetComponent<GravBody>();
         }
     }
 
     public Vector3 GetResultantGrav(Vector3 playerPos)
     {
         Vector3 force = Vector3.zero;
-        foreach (Planet p in planets)
+        foreach (GravBody b in bodies)
         {
-            force += CalculateGravForce(playerPos, p);
+            force += CalculateGravForce(playerPos, b);
         }
 
         return force;
     }
 
-    private Vector3 CalculateGravForce(Vector3 playerPos, Planet planet)
+    private Vector3 CalculateGravForce(Vector3 playerPos, GravBody body)
     {
-        float dist = Vector3.Distance(planet.position, playerPos);
-        float mag = (Universe.gravConstant * planet.mass * Universe.playerMass) / (dist * dist);
-        Vector3 dir = (planet.position - playerPos).normalized;
+        float dist = Vector3.Distance(body.position, playerPos);
+        float mag = (Universe.gravConstant * body.mass * Universe.playerMass) / (dist * dist);
+        Vector3 dir = (body.position - playerPos).normalized;
 
         return dir * mag;
     }

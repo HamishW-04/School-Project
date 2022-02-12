@@ -15,17 +15,20 @@ public class GUIManager : MonoBehaviour
     public Text[] currencyText = new Text[3];
 
     private int targetIndex = 0;
-    private Planet[] planets;
+    private List<Planet> planets;
 
     private void Start()
     {
         //Init
-        Planet[] temp = GetComponent<UniverseController>().planets;
-        planets = new Planet[temp.Length + 1];
-        for (int i = 0; i < planets.Length; i++)
+        GravBody[] temp = GetComponent<UniverseController>().bodies;
+        planets = new List<Planet>();
+        planets.Add(null);
+        for (int i = 0; i < temp.Length; i++)
         {
-            if(i != planets.Length - 1) planets[i] = temp[i];
-            else planets[i] = null;
+            if(temp[i] is Planet)
+            {
+                planets.Add((Planet)temp[i]);
+            }
         }
     }
 
@@ -33,7 +36,7 @@ public class GUIManager : MonoBehaviour
     {
         if (planets == null) return;
 
-        if (targetIndex < planets.Length - 1 && swapInput == 1) targetIndex++;
+        if (targetIndex < planets.Count - 1 && swapInput == 1) targetIndex++;
         if (targetIndex > 0 && swapInput == -1) targetIndex--;
 
         targetPlanet = planets[targetIndex];
