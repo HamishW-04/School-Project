@@ -28,6 +28,8 @@ public class GameController : MonoBehaviour
 
     private void PauseGame()
     {
+        if (paused) return;
+
         paused = true;
 
         //Pause simulation
@@ -40,8 +42,10 @@ public class GameController : MonoBehaviour
 
     }
 
-    private void UnPauseGame()
+    public void UnPauseGame()
     {
+        if (!paused) return;
+
         paused = false;
         //Close GUI
         gui.PauseMenu(paused);
@@ -51,5 +55,17 @@ public class GameController : MonoBehaviour
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
 
+    }
+
+    public void SaveGame()
+    {
+        //Add save code here
+        Debug.Log("Save button pressed!");
+    }
+
+    public void QuitGame()
+    {
+        Debug.Log("Quit button pressed!");
+        Application.Quit();
     }
 }

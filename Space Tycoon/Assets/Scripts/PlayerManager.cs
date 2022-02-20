@@ -21,6 +21,9 @@ public class PlayerManager : MonoBehaviour
     private PlayerMovement movement;
     private Rigidbody rb;
 
+    [Header("Colony/Landed")]
+    public bool landed;
+
     private void Start()
     {
         gui = GameObject.FindWithTag("GameController").GetComponent<GUIManager>();
@@ -44,5 +47,36 @@ public class PlayerManager : MonoBehaviour
     public void Refuel()
     {
         movement.Refuel();
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        //Check if we are on a planet
+    }
+}
+
+public struct PlanetCheck
+{
+    public GameObject checkObj;
+    public Planet planet;
+    public bool isPlanet;
+
+    public PlanetCheck(GameObject checkObj, Planet planet , bool isPlanet)
+    {
+        this.checkObj = checkObj;
+        this.planet = planet;
+        this.isPlanet = isPlanet;
+    }
+
+    public static PlanetCheck IsPlanet(GameObject obj)
+    {
+        if (obj.tag == "Gravity Body" && obj.TryGetComponent<Planet>(out Planet p))
+        {
+            return new PlanetCheck(obj, p,true);
+        }
+        else
+        {
+            return new PlanetCheck(obj, null ,false);
+        }
     }
 }
